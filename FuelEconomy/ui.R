@@ -1,4 +1,6 @@
 library(shiny)
+library(AppliedPredictiveModeling)
+data(FuelEconomy)
 
 shinyUI(pageWithSidebar(
   headerPanel('k-means clustering of Fuel Economy Dataset'),
